@@ -21,7 +21,7 @@ void main() {
       ),
     );
 
-    // Check if we have exactly 9 cells
+
     expect(find.byType(GestureDetector), findsNWidgets(9));
   });
 
@@ -45,11 +45,8 @@ void main() {
       ),
     );
 
-    // Simulate a tap on the first cell
     await tester.tap(find.byType(GestureDetector).first);
     await tester.pump();
-
-    // Ensure that the tap callback was triggered
     expect(tapped, true);
   });
 }
