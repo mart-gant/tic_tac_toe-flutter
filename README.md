@@ -1,16 +1,28 @@
-# tic_tac_toe
+# Tic-Tac-Toe Game
 
-A new Flutter project.
+This is a simple **Tic-Tac-Toe** game built with Flutter. The project demonstrates how to implement the logic for a classic Tic-Tac-Toe game, utilizing Flutter's powerful UI toolkit.
+
+## Features
+
+- Two-player Tic-Tac-Toe game (Player X vs. Player O)
+- Switches between players after each move
+- Detects the winner or a draw
+- Game reset functionality
+- Clean and simple UI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, you'll need to have Flutter installed on your machine. Follow these steps to set up the project:
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: [Installation guide](https://flutter.dev/docs/get-started/install)
+- Dart SDK (comes with Flutter)
+- Android Studio or Visual Studio Code (with Flutter plugin)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe-flutter.git
